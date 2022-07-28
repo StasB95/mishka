@@ -9,21 +9,28 @@
 </head>
 <body class="page">
     <header class="header">
+        <a class="header-nav-logo" href="index.html">
+            <img src="../img/mishka-logo-mobile.svg" alt="MISHKA">
+        </a>
         <nav class="header-nav">
-            <div class="header-nav-logo">
-                <img src="../img/mishka-logo-mobile.svg" alt="MISHKA">
-                <button><span></span></button>
+           
+            <!-- <button class="main-nav__toggle"><span ></span></button> -->
+            <div class="menu-btn menu-btn-position">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="header-nav-item">
-                <a class="header-nav-item" href="">Каталог товаров</a>
-                <a class="header-nav-item" href="">Вязание на заказ</a>
-                <div class="header-nav-item">
-                    <img src="../img/header/search.svg" alt="SEARCH">
-                    <h2>Поиск по сайту</h2>
+            <div class="  menu">
+                
+                <a class="header-nav-item" href="catalog.html">Каталог товаров</a>
+                <a class="header-nav-item" href="form.html">Вязание на заказ</a>
+                <div class="header-nav-search">
+                    <img class="header-nav-search-img" src="../img/header/search.svg" alt="SEARCH">
+                    <h2 class="header-nav-search-title">Поиск по сайту</h2>
                 </div>
-                <div class="header-nav-item">
-                    <img src="../img/header/cart.svg" alt="CART">
-                    <h2>Корзина: пока пуста</h2>
+                <div class="header-nav-cart">
+                    <img class="header-nav-cart-img" src="../img/header/cart.svg" alt="CART">
+                    <h2 class="header-nav-cart-title">Корзина: пока пуста</h2>
                 </div>
             </div>
         </nav>
@@ -138,7 +145,7 @@
     </main>
     <footer>
         <div>
-            <img src="../img/mishka-logo-mobile.svg" alt="MISHKA">
+            <a href="index.html"><img src="../img/mishka-logo-mobile.svg" alt="MISHKA"></a>
         </div>
         <div>
             <ul class="social-list">
@@ -154,5 +161,6 @@
             </ul>
         </div>
     </footer>
+    <script src="../js/index.js"></script>
 </body>
 </html>
