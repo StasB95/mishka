@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="page">
+    <header class="header">
+        <a class="header-nav-logo" href="index.html">
+            <img src="../img/mishka-logo-mobile.svg" alt="MISHKA">
+        </a>
+        <nav class="header-nav">
+           
+            <!-- <button class="main-nav__toggle"><span ></span></button> -->
+            <div class="menu-btn menu-btn-position">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="  menu">
+                
+                <a class="header-nav-item" href="catalog.html">Каталог товаров</a>
+                <a class="header-nav-item" href="form.html">Вязание на заказ</a>
+                <div class="header-nav-search">
+                    <img class="header-nav-search-img" src="../img/header/search.svg" alt="SEARCH">
+                    <h2 class="header-nav-search-title">Поиск по сайту</h2>
+                </div>
+                <div class="header-nav-cart">
+                    <img class="header-nav-cart-img" src="../img/header/cart.svg" alt="CART">
+                    <h2 class="header-nav-cart-title">Корзина: пока пуста</h2>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="form-content">
+                <h1 class="form-title">Вязание на заказ</h1>
+                <p class="form-text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+            </div>
+            <form action="">
+                <fieldset  class="form-type">
+                    <legend class="form-type-title">ТИП</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" name="type-1" id="type-1">
+                            <label for="type-1">Аксессуар для интерьера</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="type-1" id="type-2">
+                            <label for="type-2">Детская игрушка</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form-color">
+                    <legend class="form-color-title">ЦВет</legend>
+                    <ul>
+                        <li class="form-color-item">
+                            <input type="checkbox" name="color" id="color-1">
+                            <label for="color-1">Белый</label>
+                        </li>
+                        <li class="form-color-item">
+                            <input type="checkbox" name="color" id="color-2">
+                            <label for="color-2">Белый</label>
+                        </li>
+                        <li class="form-color-item">
+                            <input type="checkbox" name="color" id="color-3">
+                            <label for="color-3">«Тиффани»</label>
+                        </li>
+                        <li class="form-color-item">
+                            <input type="checkbox" name="color" id="color-4">
+                            <label for="color-4">Черный</label>
+                        </li>
+                        <li class="form-color-item">
+                            <input type="checkbox" name="color" id="color-5">
+                            <label for="color-5">Розовый</label>
+                        </li>
+                        <li class="form-color-item">
+                            <input type="checkbox" name="color" id="color-6">
+                            <label for="color-6">Оранжевый</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form-fio">
+                    <legend class="form-fio-title">ФИО</legend>
+                    <ul>
+                        <li class="form-fio-item">
+                            <label for="name">Имя:*</label>
+                            <input type="text" name="name" id="name" placeholder="Введите ваше имя">
+                        </li>
+                        <li class="form-fio-item">
+                            <label for="surname">Фамилия:*</label>
+                            <input type="text" name="surname" id="surname" placeholder="Введите вашу фамилию">
+                        </li>
+                        <li class="form-fio-item">
+                            <label for="secondname">Отчество:</label>
+                            <input type="text" name="secondname" id="secondname" placeholder="Введите ваше отчество, если желаете">
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form-tel">
+                    <legend class="form-tel-title">тел*</legend>
+                    <input type="tel" name="tel" id="tel" placeholder="+380 XX XXX XXXX">
+                    <label for="tel">Введите ваш телефон</label>
+                </fieldset>
+                <fieldset class="form-email">
+                    <legend class="form-email-title">E-mail*</legend>
+                    <input type="email" name="email" id="email" placeholder="email@xxxxxxx">
+                    <label for="email">Введите ваш e-mail</label>
+                </fieldset>
+                <fieldset class="form-comment">
+                    <legend class="form-comment-title">Коментарий</legend>
+                    <textarea name="comment" cols="30" rows="10" placeholder="Напишите ваш коментарий"></textarea>
+                </fieldset>
+                <p class="form-footnote">*Поля обязательны для заполнения</p>
+                <button class="form-button">ОТПРАВИТЬ ЗАКАЗ</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="index.html"><img src="../img/mishka-logo-mobile.svg" alt="MISHKA"></a>
+        </div>
+        <div>
+            <ul class="social-list">
+                <li class="social-item">
+                    <img src="../img/footer/insta.svg" alt="Instagram">
+                </li>
+                <li class="social-item">
+                    <img src="../img/footer/fb.svg" alt="Facebook">
+                </li>
+                <li class="social-item">
+                    <img src="../img/footer/twitter.svg" alt="Twitter">
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/index.js"></script>
+</body>
+</html>
